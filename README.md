@@ -1,0 +1,4 @@
+ - aiohttp - https://docs.aiohttp.org/en/stable/
+ - aiofiles - https://pypi.org/project/aiofiles/
+ - asyncpg - https://magicstack.github.io/asyncpg/current/usage.html
+ - httpx - https://www.python-httpx.org/
