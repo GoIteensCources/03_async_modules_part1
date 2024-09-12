@@ -1,6 +1,14 @@
 from aiohttp import web
+import aiohttp
 
 app = web.Application()
+
+
+async def fetch_data(url):
+    """make GET query to url with aiohttp"""
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            return await response.json()
 
 
 async def handle(request):
